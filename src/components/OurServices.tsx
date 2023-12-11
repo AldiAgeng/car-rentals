@@ -1,6 +1,8 @@
 
 import { Container, Row, Col, Image } from "react-bootstrap";
 import imgServices from "../assets/img/img_service.png";
+import iconCheck from "../assets/img/icon_cek.png"
+
 export default function OurServices() {
   return (
     <div className="services" id="services">
@@ -16,20 +18,20 @@ export default function OurServices() {
             </p>
             <ul className="list-group">
               <li className="list-group-item border-0">
-                <i className="icon-check me-3 bi bi-check-lg"></i>
+                <Image src={iconCheck} alt="IconCheck" className="me-1" />
                 Sewa Mobil Dengan Supir di Bali 12 Jam
               </li>
               <li className="list-group-item border-0">
-                <i className="icon-check me-3 bi bi-check-lg"></i> Sewa Mobil Lepas Kunci di Bali 24 Jam
+              <Image src={iconCheck} alt="IconCheck" className="me-1" /> Sewa Mobil Lepas Kunci di Bali 24 Jam
               </li>
               <li className="list-group-item border-0">
-                <i className="icon-check me-3 bi bi-check-lg"></i> Sewa Mobil Jangka Panjang Bulanan
+              <Image src={iconCheck} alt="IconCheck" className="me-1" /> Sewa Mobil Jangka Panjang Bulanan
               </li>
               <li className="list-group-item border-0">
-                <i className="icon-check me-3 bi bi-check-lg"></i> Gratis Antar - Jemput Mobil di Bandara
+              <Image src={iconCheck} alt="IconCheck" className="me-1" /> Gratis Antar - Jemput Mobil di Bandara
               </li>
               <li className="list-group-item border-0">
-                <i className="icon-check me-3 bi bi-check-lg"></i> Layanan Airport Transfer / Drop In Out
+              <Image src={iconCheck} alt="IconCheck" className="me-1" /> Layanan Airport Transfer / Drop In Out
               </li>
             </ul>
           </Col>
